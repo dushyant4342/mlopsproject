@@ -1,4 +1,12 @@
+#(to automatically trigger setup.py)
 seaborn
 pandas
 numpy
+scikit-learn
+matplotlib
+catboost
+dill
+xgboost
+Flask
+
 -e .
