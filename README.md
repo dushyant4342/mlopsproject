@@ -1,5 +1,7 @@
 #End2End-MLOps
 
+-e . in requirements #(to automatically trigger setup.py)
+
 python3 -m venv /Users/dushyantsharma/Desktop/awsfreetier/Data-science-projects/End2End-ML-Deployment-Ops/venv
 python3 --version (Python 3.9.6)
 
@@ -31,3 +33,4 @@ git branch -M main
 git remote add origin git@github.com:dushyant4342/mlopsproject.git   --( git remote remove origin    )
 git push -u origin main
 
+git add .
