@@ -34,3 +34,16 @@ git remote add origin git@github.com:dushyant4342/mlopsproject.git   --( git rem
 git push -u origin main
 
 git add .
+
+
+
+
+#lsof -i :5000
+
+# COMMAND   PID           USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+# ControlCe 571 dushyantsharma   10u  IPv4 0x81b2725f7240aa54      0t0  TCP *:commplex-main (LISTEN)
+# ControlCe 571 dushyantsharma   11u  IPv6 0xb30f9d0b8587c843      0t0  TCP *:commplex-main (LISTEN)
+#(venv) ➜  End2End-ML-Deployment-Ops git:(main) ✗ kill -9 571  
+
+
+# app.run(host="0.0.0.0", port=5001)  -> use different port if the port is busy
