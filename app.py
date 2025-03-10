@@ -2,17 +2,6 @@ from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
 
-
-#lsof -i :5000
-
-# COMMAND   PID           USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
-# ControlCe 571 dushyantsharma   10u  IPv4 0x81b2725f7240aa54      0t0  TCP *:commplex-main (LISTEN)
-# ControlCe 571 dushyantsharma   11u  IPv6 0xb30f9d0b8587c843      0t0  TCP *:commplex-main (LISTEN)
-#(venv) ➜  End2End-ML-Deployment-Ops git:(main) ✗ kill -9 571  
-
-
-# app.run(host="0.0.0.0", port=5001)  -> use different port if the port is busy
-
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
