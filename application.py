@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)  # This is the correct WSGI application instance
-app = application  # Ensure compatibility with Elastic Beanstalk (#port =  5001   #http://127.0.0.1:5001/predictdata or http://localhost:5001/predictdata ( IP address for localhost - 127.0.0.1))
+app = application  # Ensure compatibility with Elastic Beanstalk v2env (#port =  5001   #http://127.0.0.1:5001/predictdata or http://localhost:5001/predictdata ( IP address for localhost - 127.0.0.1))
 
 ## Route for a home page
 @app.route('/')
