@@ -47,3 +47,6 @@ git add .
 
 
 #app.run(host="0.0.0.0", port=5001)  -> use different port if the port is busy
+
+
+#update outbound rule to port range 443 to make it work and inbound 8000/5000 whichever you have chosen
