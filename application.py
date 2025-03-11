@@ -42,7 +42,7 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",port =  5001)   #http://127.0.0.1:5001/predictdata or http://localhost:5001/predictdata ( IP address for localhost - 127.0.0.1)
+    app.run(host="0.0.0.0") #,port =  5001   #http://127.0.0.1:5001/predictdata or http://localhost:5001/predictdata ( IP address for localhost - 127.0.0.1)
 
 
 
